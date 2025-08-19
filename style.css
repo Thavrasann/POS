@@ -1,0 +1,88 @@
+body {
+  margin: 20px;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  background-color: #f8f9fa;
+  color: #333;
+}
+
+/* Product Card */
+.product-card {
+  width: 100%;
+  background: #fff;
+  border-radius: 12px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.08);
+  margin-top: 30px;
+  padding: 20px;
+  display: flex;
+  /* align-items: center;  */
+  gap: 20px; 
+  transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+
+.product-card:hover {
+  transform: translateY(-4px);
+  box-shadow: 0 6px 16px rgba(0, 0, 0, 0.12);
+}
+
+/* Product Image */
+.product-card img {
+  width: 120px;
+  height: 120px;
+  border-radius: 10px;
+  object-fit: cover;
+}
+
+/* Info Section */
+.product-info {
+  flex: 1;
+}
+
+/* USA Receive Section */
+#receive_usa {
+  border: 2px solid rgb(111, 193, 199);
+  width: 100%;
+  font-size: 24px;
+  font-weight: 600;
+  padding: 12px 20px;
+  border-radius: 8px;
+  text-align: right;
+  background: #e9f7f8;
+  color: #2c7074;
+}
+
+/* Action Buttons */
+.button {
+  display: inline-block;
+  width: 100%;
+  padding: 14px;
+  font-size: 20px;
+  font-weight: 600;
+  border-radius: 10px;
+  cursor: pointer;
+  transition: background 0.2s ease, transform 0.2s ease;
+}
+
+/* Cancel Button */
+#cancel {
+  display: block;
+  text-align: center;
+  background: #e22b2b;
+  color: white;
+}
+
+#cancel:hover {
+  background: #c22121;
+  transform: scale(1.03);
+}
+
+/* Payment Button */
+#payment {
+   
+  background: #4f2be2;
+  color: white;
+}
+
+#payment:hover {
+  background: #3b20b5;
+  transform: scale(1.03);
+}
